@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formularios</title>
+<link href="../css/style_enlaces.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+		<h1>Formularios en HTML</h1>
+	</header>
+<nav>
+		<ul>
+		  <li>Mi primera página</li>
+			<li>Listas</li>
+			<li>Enlaces</li>
+			<li>Audio</li>
+			<li>Video</li>
+			<li>Imagenes</li>
+			<li>Animacion</li>
+			<li>Formularios</li>
+		</ul>
+	</nav>
+<main>
+		<section>
+			<h2>Inserción de formularios</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ab sequi voluptas facilis saepe hic reprehenderit, in totam sed. Ab nihil quibusdam esse eos beatae, delectus rem vel veritatis accusantium.</p>
+			<form>
+				<label>¿Cuales son los generos musicales que prefieres?</label>
+				<input type="checkbox" id="generom1" name="generom1" value="Pop">
+				<label>Pop</label>
+				<input type="checkbox" id="generom2" name="generom2" value="Banda">
+				<label>Banda</label>
+				<input type="checkbox" id="generom3" name="generom3" value="Rock">
+				<label>Rock</label>
+				<input type="checkbox" id="generom4" name="generom4" value="Clasica">
+				<label>Clasica</label>
+				<input type="button" id="boton2" name="enviar2" value="enviar">
+			</form>
+		</section>
+		<section>
+			<h2>Inserción de formulario con botones de radio</h2>
+		  <form id="form1" name="form1" method="get" action="Action page.html">
+		    <label>Genero</label>
+			  <input type="radio" name="radio" id="radio" value="radio">
+              <label for="radio">Femenino&nbsp; </label>
+			  <input type="radio" name="radio" id="radio" value="radio">
+              <label for="radio">Masculino&nbsp; </label>
+			  <input type="submit" name="submit" id="submit" value="enviar">
+
+		  </form>
+			
+		</section>
+		<section>
+		  <h2>Formulario de contacto</h2>
+			<form action="Action page.html" method="get">
+				<label>Contacto</label>
+				<table width="50%" border="0">
+			  <tbody>
+				<tr>
+				  <th scope="col"><label for="texfield">Nombre&nbsp;</label></th>
+				  <th scope="col"><input type="text" name="textfield" id="texfield"></th>
+				</tr>
+				<tr>
+				  <td><label for="email">Email</label></td>
+				  <td><input type="email" name="email" id="email"></td>
+				</tr>
+				<tr>
+				  <td><label for="textarea">Mensaje</label></td>
+				  <td><textarea name="textarea" id="textarea"></textarea></td>
+				</tr>
+				<tr>
+				  <td><input type="submit" name="submit2" id="submit2" value="enviar"></td>
+				  <td>&nbsp;</td>
+				</tr>
+			  </tbody>
+			</table>
+			</form>
+		</section>
+		<section>
+		<h2>Formulario de ingreso o login</h2>
+		<form action="Action page.html">
+			<label>Usuario</label>
+			<input type="text">
+			<label>Contraseña</label>
+			<input type="password">
+			<input type="submit">
+		</form>
+		
+	    </section>
+</main>
+	<header></header>
+</body>
+</html>

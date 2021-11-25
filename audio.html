@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../css/style_enlaces.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<!--((header>h1)+(nav>ul>(li*5))+(main>section>(h+p))+(footer>h5))-->
+		<header>
+			<h1>Audio en HTML5</h1>
+		</header>
+		<nav>
+			<ul>
+				<li>Mi primera página</li>
+				<li>Tablas</li>
+				<li>Listas</li>
+				<li>Enlaces</li>
+				<li>Imagenes</li>
+				<li>Audio</li>
+			</ul>
+		</nav>
+<main>
+			<section>
+				<h>Inserccion de audio simple</h>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos accusamus praesentium quibusdam itaque nihil ducimus earum fuga officiis eligendi quisquam. Vel laboriosam tempora illum voluptas commodi aperiam nam earum reprehenderit.</p>
+			<audio controls>
+				<source src="../medios/audio/musica halloween.mp3" type="audio/mp3"
+				<source src="" type="audio/ogg">
+				<source src="" type="audio/wav">
+				your browser does not support the audio element.
+			</audio>
+			</section>
+			
+  			<section>
+            	<h1>Inserccion de audio sin sonido o mute</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda facilis aliquid, maxime amet, sapiente necessitatibus corporis hic qui quibusdam.</p>
+				<audio controls muted autoplay>
+					<source src="../medios/audio/musica halloween.mp3">
+					Your browser does not support the audio element
+	</audio>
+	</section>
+			<section>
+			  <h1>Inserccion de audio con  reproduccion ciclica</h1>
+			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda facilis aliquid, maxime amet, sapiente necessitatibus corporis hic qui quibusdam.</p>
+			  <audio controls  autoplay loop>
+			    <source src="../medios/audio/musica halloween.mp3" type="audio/mp3">
+			    Your browser does not support the audio element </audio>
+  </section>
+	 		<section>
+				<h1>Inserccion de audio de repositorio</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam expedita, excepturi est assumenda consequuntur, tempore voluptatum rerum error reiciendis provident, quae perferendis voluptatem molestias aliquam magnam unde voluptates tempora, vitae!</p>
+				<iframe id='audio_38846' frameborder='0' allowfullscreen='' scrolling='no' height='200' src='https://mx.ivoox.com/es/player_ej_38846_6_1.html?c1=ff6600' style='border:1px solid #EEE; box-sizing:border-box; width:50%;'></iframe>
+			
+			</section>
+  <section>
+				<h1>Inserccion de audio desde DREAM</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis id, molestias explicabo maxime qui at obcaecati mollitia odit veritatis exercitationem!</p>
+            <audio controls="controls" muted="muted" autoplay="autoplay" >
+                  <source src="../medios/audio/musica halloween.mp3" type="audio/mp3">
+    </audio>
+  </section>
+  </main>
+		<footer>
+		  <h5>Elaborado por Nora Jenifer Estrada Martinez</h5>
+</footer>	
+</body>
+</html>

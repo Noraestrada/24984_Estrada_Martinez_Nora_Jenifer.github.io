@@ -1,0 +1,186 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Flexbox</title>
+
+	<style>
+	.box-conteiner-flex{ 
+		background-color:#F580D8;
+		display:flex;
+		margin:30px 0;
+		}
+		
+.box-conteiner-flex >div, .box-conteiner-flex-2 >div, .box-conteiner-flex-3 >div, .box-conteiner-flex-4 >div, .box-conteiner-flex-5 >div, .box-conteiner-flex-6 >div, .box-conteiner-flex-7 >div{
+		width:400px;
+		background-color: #F580D8;
+		margin: 10px;
+		padding:20px;
+		font-size:30px;
+		}
+		
+		.box-conteiner-flex-3>div{ 
+			width:10%;
+		}
+		
+		.box-conteiner-flex-4>div{ 
+			width:250px;
+		}
+		
+		.box-conteiner-flex-5>div{ 
+			width:300px;
+			height: 200px;
+			background-color: #D1CECE;
+			margin: 5px;
+			padding: 10px;
+			font-size: 20px;
+		}
+		.box-conteiner-flex-6>div{ 
+			width:300px;
+			background-color: #D1CECE;
+			margin: 10px;
+			padding: 10px;
+			font-size: 30px;
+		}
+		
+		.box-conteiner-flex-7>div{ 
+			width:80%;
+			height: 600px;
+			background-color: #D1CECE;
+			margin: 10px;
+			padding: 10px;
+			font-size: 30px;
+			
+		}
+		
+		.box-conteiner-flex-2{ 
+			background-color:#330F4E;
+			display: flex;
+			flex-direction: column;
+		}
+		
+		.box-conteiner-flex-3{ 
+		background-color:#EFA4F1;
+		display:flex;
+		flex-wrap: wrap-reverse;
+		}
+		
+		.box-conteiner-flex-4{ 
+		background-color: #5865F5;
+		display:flex;
+		justify-content: space-between;
+		}
+		
+		.box-conteiner-flex-5{ 
+		background-color: #5865F5;
+		display:flex;
+		align-items:stretch;
+		}
+		
+		.box-conteiner-flex-6{ 
+		display:flex;
+		height:600px;
+		flex-wrap: wrap;
+		align-content: space-between;
+		background-color: #5865F5;
+		}
+		
+		.box-conteiner-flex-7{ 
+		display:flex;
+		height:800px;
+		background-color: #5865F5;
+		justify-content: center;
+		align-items: center;
+		}
+		
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>FLEXBOX</h1>
+	</header>
+	<nav>
+	
+	</nav>
+	<main>
+	    
+		<section>
+			<h2>FLEXBOX</h2>
+		      <div class="box-conteiner-flex">
+		         <div>1</div>
+		         <div>2</div>
+		         <div>3</div>
+				 <div>4</div>
+		      </div>
+		</section>
+		<section>
+			<h2>Uso de la propiedad Flex-direction,direction-reverse,row,row-reverse</h2>
+		      <div class="box-conteiner-flex-2">
+		          <div>1</div>
+		          <div>2</div>
+		          <div>3</div>
+		          <div>4</div>
+		          <div>5</div>
+		      </div>
+		</section>
+		<section>
+			<h2>Uso de la propiedad Flex-wrap, no wrap, wrap-reverse</h2>
+		      <div class="box-conteiner-flex-3">
+		          <div>1</div>
+		          <div>2</div>
+		          <div>3</div>
+		          <div>4</div>
+		          <div>5</div>
+				  <div>6</div>
+				  <div>7</div>
+				  <div>8</div>
+				  <div>9</div>
+				  <div>10</div>
+				  <div>11</div>
+				  <div>12</div>
+		      </div>
+		</section>
+		<section>
+		<h2>Uso de la propiedad justify-content, center, flex-end,flex-start,</h2>
+		 <div class="box-conteiner-flex-4">
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+			</div>
+		</section>
+		<section>
+		<h2>Uso de la propiedad align items, center,flex-end,flex-start,strech</h2>
+		 <div class="box-conteiner-flex-5">
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+			<div>4</div>
+			<div>5</div>
+			</div>
+		</section>
+		<section>
+		<h2>Uso de la propiedad align content</h2>
+		 <div class="box-conteiner-flex-6">
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+			<div>4</div>
+			<div>5</div>
+			 <div>6</div>
+			 <div>7</div>
+			 <div>8</div>
+			</div>
+		</section>
+		<secton>
+		<h2>Centrado horizontal y vertical</h2>
+			<div class="box-conteiner-flex-7">
+			<div>CONTENIDO</div>
+			</div>
+		</secton>
+		
+	</main>
+	<footer>
+	</footer>
+</body>
+</html>
